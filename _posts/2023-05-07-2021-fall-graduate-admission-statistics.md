@@ -9,7 +9,7 @@ date: 2023-05-01
 
 今天我们通过数据分析来了解2021fall美国研究生申请。本文中所使用的数据来源: [Council of Graduate Schools](cgsnet.org)，原数据报告链接请参考文章结尾。
 
-**硕士和博士项目录取数据2020 fall vs. 2021 fall**
+**硕士和博士项目录取数据2020 fall vs 2021 fall**
 
 相比与2020秋季，2021秋季研究生申请总数增长了12%（2422945 vs 2153116），而录取数量增长了7% （1041725 vs 972247)。因此整体上，2021秋季研究生录取率比2020年略有下降（42.9% vs 45.1%）。
 
@@ -76,7 +76,7 @@ date: 2023-05-01
 
 以上就是我们对2021年秋季美国研究生申请的数据分析。希望这篇文章能帮助你全面而客观地了解研究生申请，从而更好地准备你的美研申请。
 
-References:
+**References:**
 
 + https://cgsnet.org/wp-content/uploads/2022/02/CGS_GED20_Report_final_v2-2.pdf
 + https://cgsnet.org/wp-content/uploads/2022/11/CGS_GED21_Report_v1-1.pdf
