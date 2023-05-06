@@ -1,6 +1,6 @@
 .PHONY: all jupyter execute convert sync jekyll build-site pause address \
-	      containers commit push publish stop-containers restart-containers \
-	      unsync clear-nb clear-output clear-jekyll clean reset
+        containers commit push publish list-containers stop-containers \
+        restart-containers unsync clear-nb clear-output clear-jekyll clean reset
 
 # Usage:
 # make                    # execute and convert all Jupyter notebooks
@@ -16,6 +16,7 @@
 # make commit             # git add/commit all synced files
 # make push               # git push to remote branch
 # make publish            # WARNING: convert, sync, commit, and push all at once
+# make list-containers    # list all running containers
 # make stop-containers    # simply stops all running Docker containers
 # make restart-containers # restart all containers
 # make unsync             # remove all synced files
@@ -116,15 +117,22 @@ all: ${CONVERTNB}
 
 # launch jupyter notebook development Docker image
 jupyter:
-	@ echo "Launching Jupyter in Docker container -> ${JPTCTNR} ..."
-	@ docker run -d \
-	           --rm \
-	           --name ${JPTCTNR} \
-	           -e JUPYTER_ENABLE_LAB=yes \
-	           -p 8888 \
-	           -v ${CURRENTDIR}:/home/jovyan \
-	           ${DCKRIMG} && \
-	echo "${JPTCTNR}" >> .running_containers
+	@ if ! docker ps --format={{.Names}} | grep -q "${JPTCTNR}"; then \
+	  echo "Launching Jupyter in Docker container -> ${JPTCTNR} ..."; \
+	  docker run -d \
+	             --rm \
+	             --name ${JPTCTNR} \
+	             -e PYTHONPATH=/home/jovyan/src \
+	             -e JUPYTER_ENABLE_LAB=yes \
+	             -p 8888 \
+	             -v "${CURRENTDIR}":/home/jovyan \
+	             ${DCKRIMG} && \
+	  if ! grep -sq "${JPTCTNR}" "${CURRENTDIR}/.running_containers"; then \
+	    echo "${JPTCTNR}" >> .running_containers; \
+	  fi \
+	else \
+	  echo "Container already running: ${JPTCTNR}. Try setting DCTNR manually."; \
+	fi
 
 # rule for executing single notebooks before converting
 %.ipynb:
@@ -165,15 +173,21 @@ sync:
 
 # launch jekyll local server Docker image
 jekyll:
-	@ echo "Launching Jekyll in Docker container -> ${JKLCTNR} ..."
-	@ docker run -d \
-	           --rm \
-	           --name ${JKLCTNR} \
-	           -v ${CURRENTDIR}:/srv/jekyll:Z \
-	           -p 4000 \
-	           jekyll/jekyll:4.2.0 \
-	             jekyll serve && \
-	echo "${JKLCTNR}" >> .running_containers
+	@ if ! docker ps --format={{.Names}} | grep -q "${JKLCTNR}"; then \
+	  echo "Launching Jekyll in Docker container -> ${JKLCTNR} ..."; \
+	  docker run -d \
+	             --rm \
+	             --name ${JKLCTNR} \
+	             -v ${CURRENTDIR}:/srv/jekyll:Z \
+	             -p 4000 \
+	             jekyll/jekyll:4.2.0 \
+	               jekyll serve && \
+	  if ! grep -sq "${JKLCTNR}" "${CURRENTDIR}/.running_containers"; then \
+	    echo "${JKLCTNR}" >> .running_containers; \
+	  fi \
+	else \
+	  echo "Container already running: ${JKLCTNR}. Try setting DCTNR manually."; \
+	fi
 
 # build jekyll static site
 build-site:
@@ -206,8 +220,7 @@ address:
 	          grep '0.0.0.0:' | awk '{print $$3'} | sed 's/0.0.0.0://g')"; \
 	  else \
 	    echo "Could not find running container: $${container}." \
-	         "Try running: make address" \
-	         "DCTNR=$$(echo $${container} | sed 's/^.*\.//g')"; \
+	         "Try running: make list-containers"; \
 	  fi \
 	done < "${CURRENTDIR}/.running_containers"; \
 	else \
@@ -232,6 +245,17 @@ push:
 
 # super command to convert, sync, commit, and push new jupyter posts
 publish: all sync commit push
+
+# list all running containers
+list-containers:
+	@ if [ -f "${CURRENTDIR}/.running_containers" ]; then \
+	echo "Currently running containers:"; \
+	while read container; do \
+	  echo "-->  $${container}"; \
+	done < "${CURRENTDIR}/.running_containers"; \
+	else \
+	  echo ".running_containers file not found. Is a Docker container running?"; \
+	fi
 
 # stop all containers
 stop-containers:
