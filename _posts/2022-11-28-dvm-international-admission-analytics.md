@@ -29,7 +29,7 @@ date: 2022-11-28
     Feature                             Data     
     
     Class                               2025     
-    International Applied               1111     
+    International Applied               111      
     International Enrolled              54       
     International Admission Rate (%)    49       
     Total Applied                       10834    
