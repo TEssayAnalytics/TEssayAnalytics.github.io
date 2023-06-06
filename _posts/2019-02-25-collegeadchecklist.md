@@ -33,11 +33,11 @@ date: 2019-02-25
   + 非必需，但可以提高学生的竞争力：  
     + [SAT2](https://collegereadiness.collegeboard.org/sat-subject-tests/subjects)。也称为SAT Subject Tests，是针对不同学科的考试。目前有20个不同学科的考试，其中包括数学、生物、化学等。大部分学校对这项成绩并没有硬性要求，由学生自愿参加考试并提供。注意喽！有些学校时要求SAT2的，记得做好调查哦。
 
-  	 在美国，很多高中生都是会根据自己想申请学校对SAT2的要求来选择考试科目的。
+      在美国，很多高中生都是会根据自己想申请学校对SAT2的要求来选择考试科目的。
 
     + [AP (Advanced Placement)](https://ap.collegeboard.org/)。 对高中生开放的大学课程和考试，截止到2018年，有38门涉及到历史、数学、语言、计算机科学等多个学科的课程可选。
 
-  	+ [IB (International Baccalaureate)](https://www.ibo.org/about-the-ib/)。国际中学毕业会考，同样是以课程和考试的形式进行。
+    + [IB (International Baccalaureate)](https://www.ibo.org/about-the-ib/)。国际中学毕业会考，同样是以课程和考试的形式进行。
 
 + **第三方面试**  
 
