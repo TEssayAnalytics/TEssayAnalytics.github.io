@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vet schools是如何获得美国AVMA认证的？"
-date: 2024-03-16
+date: 2024-03-11
 ---
 
 嗨，大家好！
@@ -68,19 +68,19 @@ AVMA COE每年都会更新其[认证政策和流程文件](https://www.avma.org/
 
 + Finances
 
-    确保财政上由充足的资源来完成学院DVM项目的mission。
+    确保财政上有充足的资源来完成学院DVM项目的mission。
 
 + Physical Facilities and Equipment
 
     + 学院设施和器材必须保证提供一个适合DVM学生的学习环境，比如教室、实验室、教学医院/农场的设施和器材功能完整、数量充足，满足课程设置的需求。
     
-    + 兽医学院校园内必须由至少一个教学医院或与校外的教学医院有正式合作。医院服务和仪器需要满足COE具体要求来位学生提供不同领域的教学和训练。
+    + 兽医学院校园内必须有至少一个教学医院或与校外的教学医院有正式合作。医院服务和仪器需要满足COE具体要求来为学生提供不同领域的教学和训练。
     
     + 实验动物的繁殖饲养设施需要满足COE具体要求和animal welfare standards.
 
 + Clinical Resources
 
-    正常和患病动物充足，临床训练场所符合COE的具体标准，以保证学生获得全面地临床训练。
+    正常和患病动物充足，临床训练场所符合COE的具体标准，以保证学生获得全面的临床训练。
 
 + Information Resources
 
@@ -154,7 +154,7 @@ AVMA COE每年都会更新其[认证政策和流程文件](https://www.avma.org/
 
     + 学院必须保证让所有学生学习研究方法的原理、应用和伦理，对科研方法的评估，以及将科研与兽医相结合
     
-    + 学院必须为由科研兴趣的DVM学生提供科研机会
+    + 学院必须为有科研兴趣的DVM学生提供科研机会
 
 + Outcomes Assessment
 
@@ -194,11 +194,33 @@ AVMA COE每年都会更新其[认证政策和流程文件](https://www.avma.org/
 
 
     
-![png](/assets/images/2024-03-08-vet-school-navle-passing-rates_files/2024-03-08-vet-school-navle-passing-rates_3_0.png)
+![png](/assets/images/2024-03-11-vet-school-navle-passing-rates_files/2024-03-11-vet-school-navle-passing-rates_3_0.png)
     
 
 
 以上就是我们关于AVMA COE认证的介绍和对NAVLE通过率的解析。希望这篇文章能帮助你更全面地了解兽医学院，为你的选择过程提供更多思路。
+
+如果你对美国DVM感兴趣，请参考我们的DVM系列文章：
+
++ [美国兽医DVM申请流程](https://www.tessay.org/blog/2018/10/05/vmcas)
+
++ [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
+
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)
+
++ [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
+
++ [美国兽医DVM国际学生录取数据分析](https://tessay.org/blog/2022/11/28/dvm-international-admission-analytics)
+
++ [美国以外，你还可以申请哪些兽医学院？](https://tessay.org/blog/2023/07/18/vet-schools-outside-of-america)
+
++ [美国兽医DVM2027级录取数据分析](https://tessay.org/blog/2023/08/01/2027-DVM-Admission-Analytics)
+
++ [常见问题解答 ｜ 国内本科生申请美国兽医项目](https://tessay.org/blog/2023/04/09/dvm-foreign-applicants-faq)
+
++ [美国兽医DVM实习解析](https://tessay.org/blog/2023/11/01/post-dvm-analytics)
+
+如果你需要我们的DVM选校、文书、申请服务，请参考[services](https://tessay.org/)。
 
 **References:**
 
