@@ -1,6 +1,7 @@
 .PHONY: all jupyter execute convert sync jekyll build-site pause address \
         containers commit push publish list-containers stop-containers \
-        restart-containers unsync clear-nb clear-output clear-jekyll clean reset
+        restart-containers unsync clear-nb clear-output clear-jekyll clean \
+				update-times reset
 
 # Usage:
 # make                    # execute and convert all Jupyter notebooks
@@ -24,6 +25,7 @@
 # make clear-output       # removes all converted files
 # make clear-jekyll       # removes Jekyll _site/ directory
 # make clean              # combines all clearing commands into one
+# make update-times       # update timestamps to now
 # make reset              # WARNING: completely reverses all changes
 
 ################################################################################
@@ -35,6 +37,7 @@ OFRMT := markdown
 THEME := dark
 TMPLT := jekyll_markdown
 BASDR := _jupyter
+PSTDR := _posts
 OUTDR := ${BASDR}/converted
 INTDR := ${BASDR}/notebooks
 TMPDR := ${BASDR}/templates
@@ -90,13 +93,15 @@ CNVRSNFLGS = ${LGLFL} ${TMPFLGS} ${RMVFLGS}
 # notebook-related variables
 CURRENTDIR := $(PWD)
 NOTEBOOKS  := $(shell find ${INTDR} -name "*.ipynb" -not -path "*/.ipynb_*/*")
-CONVERTNB  := $(addprefix ${OUTDR}/, $(notdir $(NOTEBOOKS:%.ipynb=%.${OEXT})))
+OUTPUTFLS  := $(patsubst ${INTDR}/%.ipynb, ${PSTDR}/%.${OEXT}, ${NOTEBOOKS})
 
 # docker-related variables
 JKLCTNR = jekyll.${DCTNR}
 JPTCTNR = jupyter.${DCTNR}
-DCKRIMG = ghcr.io/ragingtiger/omega-notebook:master
+JKYLIMG = jekyll/jekyll:4.2.0
+DCKRIMG = ghcr.io/diogenesanalytics/diogenesanalytics.github.io:master
 DCKRRUN = docker run --rm -v ${CURRENTDIR}:/home/jovyan -it ${DCKRIMG}
+DCKRBLD = docker build -t ${DCKRIMG} . --load
 
 # check for conditional vars to turn off docker
 ifdef NODOCKER
@@ -112,8 +117,17 @@ NBCLER = jupyter nbconvert --clear-output --inplace
 # COMMANDS                                                                     #
 ################################################################################
 
-# defaults to converting all UN-converted notebooks
-all: ${CONVERTNB}
+# define a rule to convert Jupyter notebooks to desired output format
+$(PSTDR)/%.$(OEXT): $(INTDR)/%.ipynb
+	${DCKRRUN} ${NBEXEC} $<
+	${DCKRRUN} ${NBCNVR} $<
+
+# define the default target
+all: $(OUTPUTFLS)
+
+# build jupyter docker image
+build-jupyter:
+	${DCKRBLD}
 
 # launch jupyter notebook development Docker image
 jupyter:
@@ -133,18 +147,6 @@ jupyter:
 	else \
 	  echo "Container already running: ${JPTCTNR}. Try setting DCTNR manually."; \
 	fi
-
-# rule for executing single notebooks before converting
-%.ipynb:
-	@ TARGET=$$(echo "${NOTEBOOKS}" | sed "s/ /\n/g" | grep "$@"); \
-	echo "Executing $${TARGET} in place."; \
-	${DCKRRUN} ${NBEXEC} $${TARGET}
-
-# rule for converting single notebooks to HTML
-${OUTDR}/%.${OEXT}: %.ipynb
-	@ TARGET=$$(echo "${NOTEBOOKS}" | sed "s/ /\n/g" | grep "$<"); \
-	echo "Converting $${TARGET} to ${OFRMT}"; \
-	${DCKRRUN} ${NBCNVR} $${TARGET}
 
 # execute all notebooks and store output inplace
 execute:
@@ -180,7 +182,7 @@ jekyll:
 	             --name ${JKLCTNR} \
 	             -v ${CURRENTDIR}:/srv/jekyll:Z \
 	             -p 4000 \
-	             jekyll/jekyll:4.2.0 \
+	             ${JKYLIMG} \
 	               jekyll serve && \
 	  if ! grep -sq "${JKLCTNR}" "${CURRENTDIR}/.running_containers"; then \
 	    echo "${JKLCTNR}" >> .running_containers; \
@@ -288,8 +290,16 @@ unsync:
 
 # remove output from executed notebooks
 clear-nb:
-	@ echo "Removing all output from Jupyter notebooks."
-	@ ${DCKRRUN} ${NBCLER} ${NOTEBOOKS}
+	@echo "Clearing Jupyter notebook outputs for modified and untracked files..."
+	@modified_files="$$(git diff --name-only HEAD)"; \
+	untracked_files="$$(git ls-files --others --exclude-standard)"; \
+	all_files=$$(printf "$${modified_files}\n$${untracked_files}" | \
+	             grep '\.ipynb$$'); \
+	for file in $$all_files; do \
+	    echo "Clearing output for $$file"; \
+	    ${DCKRRUN} ${NBCLER} "$$file"; \
+	done; \
+	echo "Clearing complete."
 
 # delete all converted files
 clear-output:
@@ -305,6 +315,10 @@ clear-jekyll:
 
 # cleanup everything
 clean: clear-output clear-nb clear-jekyll
+
+# update timestamps to now
+update-times:
+	touch _posts/*.${OEXT}
 
 # reset to original state undoing all changes
 reset: unsync clean
