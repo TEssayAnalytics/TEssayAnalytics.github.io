@@ -112,3 +112,5 @@ date: 2024-05-27
 
 + 申请结果：被5所学校录取，共申请8所学校，最后选择University of Rochester。
   
+
+如果你对我们的申请服务感兴趣，请参考[TEssay留学服务常见问题](https://tessay.org/blog/2024/04/02/faq)和[联系表格](https://tessay.org/blog/2024/04/10/contact-form)。
