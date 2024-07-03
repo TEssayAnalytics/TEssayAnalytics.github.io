@@ -106,7 +106,7 @@ Intern的构成可以分为美国intern和外国intern两部分，外国实习�
 
 + [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
 
-+ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
 
 + [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
 

@@ -112,8 +112,22 @@ Veterinary experience 是以小时来计数的，所以在工作时，你需要�
 
 + [美国兽医DVM申请流程](https://www.tessay.org/blog/2018/10/05/vmcas)
 
-+ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)
++ [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
+
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
 
 + [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
+
++ [美国兽医DVM国际学生录取数据分析](https://tessay.org/blog/2022/11/28/dvm-international-admission-analytics)
+
++ [美国以外，你还可以申请哪些兽医学院？](https://tessay.org/blog/2023/07/18/vet-schools-outside-of-america)
+
++ [美国兽医DVM2027级录取数据分析](https://tessay.org/blog/2023/08/01/2027-DVM-Admission-Analytics)
+
++ [常见问题解答 ｜ 国内本科生申请美国兽医项目](https://tessay.org/blog/2023/04/09/dvm-foreign-applicants-faq)
+
++ [美国兽医DVM实习解析](https://tessay.org/blog/2023/11/01/post-dvm-analytics)
+
++ [欧美DVM申请服务介绍](https://tessay.org/blog/2024/05/29/intro-to-dvm-application-service)
 
 

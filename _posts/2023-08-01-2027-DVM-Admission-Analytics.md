@@ -47,7 +47,7 @@ DVM申请难度大，而对国际学生来说更是难上加难。根据AAVMC报
 
 **Veterinary & animal experience平均小时数**
 
-美国DVM2027级申请中，所有申请者的veterinary, animal, research 经历的平均和中位小时数如图4所示。当然，大家在看到这些数据时不要压力太大，因为DVM申请者的背景差别很大，申请者中有不少已经工作过多年的人，经历的小时数会很多。如果你还在上学，建议大家在保证质量的情况下，尽力利用课余时间增加各种经历即可。而且在提交了申请之后，仍然要继续努力增加工作经历，如果获得了新的实习，可以发邮件给你申请的学校，有些学校会考虑这些新增的经历。关于veterinary experience，如果你想了解更多，请参考我们的文章：[美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)。
+美国DVM2027级申请中，所有申请者的veterinary, animal, research 经历的平均和中位小时数如图4所示。当然，大家在看到这些数据时不要压力太大，因为DVM申请者的背景差别很大，申请者中有不少已经工作过多年的人，经历的小时数会很多。如果你还在上学，建议大家在保证质量的情况下，尽力利用课余时间增加各种经历即可。而且在提交了申请之后，仍然要继续努力增加工作经历，如果获得了新的实习，可以发邮件给你申请的学校，有些学校会考虑这些新增的经历。关于veterinary experience，如果你想了解更多，请参考我们的文章：[美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)。
 
 
     
@@ -63,7 +63,7 @@ DVM申请难度大，而对国际学生来说更是难上加难。根据AAVMC报
 
 + [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
 
-+ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
 
 + [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
 

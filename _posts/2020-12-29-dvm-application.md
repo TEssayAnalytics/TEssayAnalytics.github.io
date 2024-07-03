@@ -122,3 +122,21 @@ DVM是一个需要对动物医学的热爱和坚定的信念来完成的学位�
 —Update—
 
 原文章写于2020年，从DVM2025级申请开始，VMCAS申请表格有部分变动，比如文书主题。很多学校也取消了GRE要求。请大家在申请时参考VMCAS和各学校官网最新的信息。
+
+更多关于DVM申请的文章，请参考：
+
++ [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
+
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
+
++ [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
+
++ [美国兽医DVM国际学生录取数据分析](https://tessay.org/blog/2022/11/28/dvm-international-admission-analytics)
+
++ [美国以外，你还可以申请哪些兽医学院？](https://tessay.org/blog/2023/07/18/vet-schools-outside-of-america)
+
++ [美国兽医DVM2027级录取数据分析](https://tessay.org/blog/2023/08/01/2027-DVM-Admission-Analytics)
+
++ [常见问题解答 ｜ 国内本科生申请美国兽医项目](https://tessay.org/blog/2023/04/09/dvm-foreign-applicants-faq)
+
++ [欧美DVM申请服务介绍](https://tessay.org/blog/2024/05/29/intro-to-dvm-application-service)

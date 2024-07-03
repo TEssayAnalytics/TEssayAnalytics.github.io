@@ -17,7 +17,7 @@ date: 2023-04-09
 
 + [美国兽医DVM申请流程](https://www.tessay.org/blog/2018/10/05/vmcas)
 
-+ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/15/veterinary-experience)
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
 
 + [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
 
