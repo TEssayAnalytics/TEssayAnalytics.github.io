@@ -63,9 +63,105 @@ ICE（US Immigration and Customs Enforcement）最近发布的SEVIS数据报告�
 中国学生占所有国际学生的比重最大，24% （324,196）。与2021年相比，2022年持有学生签证的中国学生数量降低了7.1%。2019-2022年中国学生数量整体呈现下降趋势，2021-2022下降趋势有所缓解，如图4 (Figure 4)。与此同时，另一个比较大的国际学生生源国印度的学生数量2020-2022年成上涨趋势，2022年学生数量为297,151。
 
 
-    
-![png](/assets/images/2023-06-07-2022-fall-international-admission-analytics_files/2023-06-07-2022-fall-international-admission-analytics_9_0.png)
-    
+    ---------------------------------------------------------------------------
+
+    ValueError                                Traceback (most recent call last)
+
+    File /opt/conda/lib/python3.11/site-packages/IPython/core/formatters.py:343, in BaseFormatter.__call__(self, obj)
+        341     pass
+        342 else:
+    --> 343     return printer(obj)
+        344 # Finally look for special method names
+        345 method = get_real_method(obj, self.print_method)
+
+
+    File /opt/conda/lib/python3.11/site-packages/IPython/core/pylabtools.py:152, in print_figure(fig, fmt, bbox_inches, base64, **kwargs)
+        149     from matplotlib.backend_bases import FigureCanvasBase
+        150     FigureCanvasBase(fig)
+    --> 152 fig.canvas.print_figure(bytes_io, **kw)
+        153 data = bytes_io.getvalue()
+        154 if fmt == 'svg':
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backend_bases.py:2193, in FigureCanvasBase.print_figure(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)
+       2189 try:
+       2190     # _get_renderer may change the figure dpi (as vector formats
+       2191     # force the figure dpi to 72), so we need to set it again here.
+       2192     with cbook._setattr_cm(self.figure, dpi=dpi):
+    -> 2193         result = print_method(
+       2194             filename,
+       2195             facecolor=facecolor,
+       2196             edgecolor=edgecolor,
+       2197             orientation=orientation,
+       2198             bbox_inches_restore=_bbox_inches_restore,
+       2199             **kwargs)
+       2200 finally:
+       2201     if bbox_inches and restore_bbox:
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backend_bases.py:2043, in FigureCanvasBase._switch_canvas_and_return_print_method.<locals>.<lambda>(*args, **kwargs)
+       2039     optional_kws = {  # Passed by print_figure for other renderers.
+       2040         "dpi", "facecolor", "edgecolor", "orientation",
+       2041         "bbox_inches_restore"}
+       2042     skip = optional_kws - {*inspect.signature(meth).parameters}
+    -> 2043     print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+       2044         *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+       2045 else:  # Let third-parties do as they see fit.
+       2046     print_method = meth
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py:497, in FigureCanvasAgg.print_png(self, filename_or_obj, metadata, pil_kwargs)
+        450 def print_png(self, filename_or_obj, *, metadata=None, pil_kwargs=None):
+        451     """
+        452     Write the figure to a PNG file.
+        453 
+       (...)
+        495         *metadata*, including the default 'Software' key.
+        496     """
+    --> 497     self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py:445, in FigureCanvasAgg._print_pil(self, filename_or_obj, fmt, pil_kwargs, metadata)
+        440 def _print_pil(self, filename_or_obj, fmt, pil_kwargs, metadata=None):
+        441     """
+        442     Draw the canvas, then save it using `.image.imsave` (to which
+        443     *pil_kwargs* and *metadata* are forwarded).
+        444     """
+    --> 445     FigureCanvasAgg.draw(self)
+        446     mpl.image.imsave(
+        447         filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        448         dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py:383, in FigureCanvasAgg.draw(self)
+        381 def draw(self):
+        382     # docstring inherited
+    --> 383     self.renderer = self.get_renderer()
+        384     self.renderer.clear()
+        385     # Acquire a lock on the shared font cache.
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py:398, in FigureCanvasAgg.get_renderer(self)
+        396 reuse_renderer = (self._lastKey == key)
+        397 if not reuse_renderer:
+    --> 398     self.renderer = RendererAgg(w, h, self.figure.dpi)
+        399     self._lastKey = key
+        400 return self.renderer
+
+
+    File /opt/conda/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py:70, in RendererAgg.__init__(self, width, height, dpi)
+         68 self.width = width
+         69 self.height = height
+    ---> 70 self._renderer = _RendererAgg(int(width), int(height), dpi)
+         71 self._filter_renderers = []
+         73 self._update_methods()
+
+
+    ValueError: Image size of 5313x630000115 pixels is too large. It must be less than 2^16 in each direction.
+
+
+
+    <Figure size 600x600 with 1 Axes>
 
 
 **地理分布**
