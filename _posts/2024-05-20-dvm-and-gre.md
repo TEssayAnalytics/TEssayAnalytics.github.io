@@ -36,7 +36,7 @@ date: 2024-05-20
 
 总之，如果你正在准备申请DVM，无需再花时间纠结GRE，请把更多时间用来优化GPA和各类经历。
 
-如果你需要我们的DVM选校、文书、申请服务，请参考参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)或[services](https://tessay.org/)。
+如果你需要我们的DVM选校、文书、申请服务，请参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)或[services](https://tessay.org/)。
 
 如果你对美国DVM感兴趣，请参考我们的DVM系列文章：
 
