@@ -137,7 +137,7 @@ include_mathjax: false
 
 最后，我想告诉大家，等到要参加Casper的时候，你们应该已经花过大量时间在准备申请材料上，也有过不少成功的实习面试经历了，因此一定可以顺利地完成这个测试。就把它当作是年底vet school面试的热身吧，你一定没问题的！
 
-如果你需要我们的DVM申请服务，请参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)，和[购买流程](https://tessay.org/blog/2024/04/10/contact-form)。
+如果你需要我们的DVM申请服务，请参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)，[欧美DVM申请服务介绍](https://tessay.org/blog/2024/05/29/intro-to-dvm-application-service)，和[购买流程](https://tessay.org/blog/2024/04/10/contact-form)。
 
 
 如果你对美国DVM感兴趣，请参考我们的DVM系列文章：
