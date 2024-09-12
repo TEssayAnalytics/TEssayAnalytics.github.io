@@ -5,7 +5,7 @@ date: 2024-08-04
 include_mathjax: false
 ---
 
-继上篇文章[兽医DVM申请 - Tips for VMCAS](https://tessay.org/blog/2024/07/07/dvm-vmcas-tips)之后，今天我们又来分享更多关于申请相关的信息和经验了。
+继之前的文章[兽医DVM申请 - Tips for VMCAS](https://tessay.org/blog/2024/07/07/dvm-vmcas-tips)之后，今天我们又来分享更多关于申请相关的信息和经验了。
 
 以下tips虽然细碎，但都是我们在工作中学习或总结的经验。DVM申请本身就是一个非常繁琐的过程，每年都有不少申请者因为边边角角的基础问题而在第一轮审核中被淘汰。请大家保持耐心和认真。在申请这件事上，认真你才能赢！
 
