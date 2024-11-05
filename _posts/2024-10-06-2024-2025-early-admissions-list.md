@@ -111,7 +111,7 @@ include_mathjax: false
     
   因此，请大家确认好自己申请的学校的具体要求。
 
-以上就是关于美国本科早申请的要求、学校和截止日期的介绍，希望正在准备EA/ED的同学顺利完成申请。
+以上就是关于美国本科早申请的要求、学校和截止日期的介绍，希望正在准备EA/ED的同学顺利完成申请。如果您需要我们的服务，请参考[TEssay留学申请服务常见问题](https://tessay.org/blog/2024/04/02/faq)和[购买流程](https://tessay.org/blog/2024/04/10/contact-form)。
 
 ## References ##
 
