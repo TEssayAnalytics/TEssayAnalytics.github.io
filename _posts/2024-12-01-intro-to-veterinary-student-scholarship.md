@@ -80,6 +80,38 @@ include_mathjax: false
 
 最后，如果2025年夏天这项奖学金的资助人又再次慷慨解囊，祝正在阅读文章的你可以申请到，让接下来的DVM学习更加轻松顺利。
 
+如果你需要我们的DVM申请服务，请参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)，[购买流程](https://tessay.org/blog/2024/04/10/contact-form), 和[欧美DVM申请服务介绍](https://tessay.org/blog/2024/05/29/intro-to-dvm-application-service)。
+
+
+如果你对美国DVM感兴趣，请参考我们的DVM系列文章：
+
++ [美国兽医DVM申请流程](https://www.tessay.org/blog/2018/10/05/vmcas)
+
++ [申请美国兽医学院，需要满足哪些条件？](https://www.tessay.org/blog/2020/12/29/dvm-application)
+
++ [美国兽医院申请之Veterinary Experience，你需要了解的](https://www.tessay.org/blog/2022/04/18/veterinary-experience)
+
++ [从高中、本科、DVM，到就业，成为美国兽医的完整流程解析](https://www.tessay.org/blog/2023/03/20/dvm-whole-process)
+
++ [美国兽医DVM国际学生录取数据分析](https://tessay.org/blog/2022/11/28/dvm-international-admission-analytics)
+
++ [美国以外，你还可以申请哪些兽医学院？](https://tessay.org/blog/2023/07/18/vet-schools-outside-of-america)
+
++ [美国兽医DVM2027级录取数据分析](https://tessay.org/blog/2023/08/01/2027-DVM-Admission-Analytics)
+
++ [常见问题解答 - 国内本科生申请美国兽医项目](https://tessay.org/blog/2023/04/09/dvm-foreign-applicants-faq)
+
++ [美国兽医DVM实习解析](https://tessay.org/blog/2023/11/01/post-dvm-analytics)
+
++ [美国兽医DVM申请 - Tips for VMCAS](https://tessay.org/blog/2024/07/07/dvm-vmcas-tips)
+
++ [美国兽医DVM申请 - Casper Test](https://tessay.org/blog/2024/07/14/casper-test-for-dvm)
+
++ [美国兽医DVM申请 - Tips for VMCAS Part II](https://tessay.org/blog/2024/08/04/vmcas-part-ii)
+
++ [在美国如何成为veterinary technician？](https://tessay.org/blog/2024/09/11/how-to-become-a-certified-vet-tech)
+
+
 ## References ##
 
 + https://vinfoundation.org/resources/veterinary-student-scholarship/
