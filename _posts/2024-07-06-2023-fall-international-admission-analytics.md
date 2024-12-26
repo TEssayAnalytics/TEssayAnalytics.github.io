@@ -94,7 +94,7 @@ include_mathjax: false
 
 以上就是2023年美国国际学生数量的数据分析。希望这篇文章能够对你的留学决定、专业和学校选择有帮助。
 
-如果您需要我们的服务，请参考[TEssay留学申请服务常见问题](https://tessay.org/blog/2024/04/02/faq)。
+如果您需要我们的服务，请参考[TEssay服务和价格](https://tessay.org/blog/2024/04/02/faq)和[购买流程](https://tessay.org/blog/2024/04/10/contact-form)。
 
 **References：**
 
