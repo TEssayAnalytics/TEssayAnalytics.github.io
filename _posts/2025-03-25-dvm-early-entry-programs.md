@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "美国兽医DVM early entry program"
-date: 2025-03-25
+date: 2025-01-08
 include_mathjax: false
 ---
 
