@@ -9,7 +9,7 @@ include_mathjax: false
 
 今天通过这篇文章，我们就来看看几个美国的兽医提前入学项目。
 
-## Mississippi State University - DVM Eearly Entry Program##
+## Mississippi State University - DVM Eearly Entry Program ##
 
 Mississippi State University (MSU)的[early entry program (EEP)](https://www.vetmed.msstate.edu/academics/early-entry-program)是专门为计划在本科后进入兽医学院的高中生设立的。被EEP录取的学生先在MSU完成DVM先修课（可选择获得本科学位），然后直接进入MSU的兽医学院开始DVM学习，免去了申请兽医学院这个步骤，同时整个本科加DVM过程可以缩减到7年。每年EEP项目录取30位学生，而申请人数在120+，录取率高于兽医院DVM的录取率（7.75%）。
 
