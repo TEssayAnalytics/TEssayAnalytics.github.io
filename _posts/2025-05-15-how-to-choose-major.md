@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "美本申请 | 如何选择专业？"
-date: 2025-03-15
+date: 2025-05-15
 include_mathjax: false
 ---
 Factors
