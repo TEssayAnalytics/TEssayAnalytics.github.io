@@ -127,6 +127,22 @@ Cornell网站上列出的申请材料要求主要是关于本科成绩单的：
     + 以上400个小时中至少75小时是在被Accelerated BS/DVM 临时录取后完成的
 + 三封推荐信：主要关于400小时实习经历的，其中至少一封来自兽医。
 
+## Rowan University - Schreiber School of Veterinary Medicine ##
+
+这个[7年制项目](https://svm.rowan.edu/admissions-menu/3+4-program.html)是Schreiber兽医学院和理学院（College of Science & Mathematics）合作设立的。兽医学院会从理学院的本科生中招收4位学生。学生用前三年在生物专业完成先修课，第四年开始DVM学习，并会在这学年结束时获得学士学位，最终七年学习结束时获得DVM学位。需要大家注意的是，目前这个项目只招收New Jersey residents。
+
+**申请流程**
+
++ 第一步，有NJ resident身份的学生要先入读Rowan University的Biology专业，并且在本科申请表格上注明对Veterinary Medicine的兴趣。入学后保持综合GPA在3.6以上，科学GPA在3.5以上。同时学生需要定期与BS/DVM导师会谈，和增加兽医和动物实习经历等。注意，如果学生最初专业不是生物，则需要先转专业到生物系。
++ 第二步，符合上述要求的学生会被邀请参与兽医学院的面试。面试通过的并提交了3分推荐信的学生在第四学年开始时就会进入兽医学院DVM项目了。
+
+**申请材料和要求**
+
++ GPA：综合≥3.6, 科学≥3.5
++ 实习经历：兽医和动物相关的，非兽医学相关的经历或成就等
++ 推荐信：3封，建议至少一封来自兽医。
++ 文书：关于学生学习兽医学的动机和学生自身的优秀品质等。
+
 看到这里，你可能会疑问：“如果不能满足DVM最终录取要求怎么办？”这种情况下，你仍然可以通过传统的[DVM申请](https://www.tessay.org/blog/2018/10/05/vmcas)来申请本科学校或者其他学校的兽医学院，这个经历并不会影响其他的申请。
 
 除了上述这些大学专为本校或特定合作院校学生设立的DVM提前录取项目外，美国还有很多学校的DVM项目不要求申请者具备本科学位，也就是说学生只要满足先修课和学分要求，即可申请。比如Iowa State University的[Early Entry Pathway to Veterinary Medicine](https://vetmed.iastate.edu/future-dvm-students/still-exploring/preparing-for-vet-school/early-entry-pathway-to-veterinary-medicine/)，这个项目让学生可以在完成两年本科学习后便可开始DVM学习。当然，这两年的课程会集中在DVM先修课上；再如UIUC的[DVM Plan B Admission](https://vetmed.illinois.edu/prospective-students/admissions/prereqs/)，也是面向那些满足先修课和学分要求但无本科学位的申请者。这类申请通道对学生的本科院校没有特殊限制，只要满足先修课、学分、实习经历等要求就可以，申请流程跟普通的DVM申请一样。
@@ -174,6 +190,7 @@ Cornell网站上列出的申请材料要求主要是关于本科成绩单的：
 + vetmed.msstate.edu/academics/early-entry-program
 + https://vetmed.umn.edu/dvm/admissions/early-admissions/early-admissions-programs
 + https://www.vet.cornell.edu/education/doctor-veterinary-medicine/prospective-students/how-apply/accelerated-bsdvm-pathway
++ https://svm.rowan.edu/admissions-menu/3+4-program.html
 + https://vetmed.illinois.edu/prospective-students/admissions/prereqs/
 + https://vetmed.iastate.edu/future-dvm-students/still-exploring/preparing-for-vet-school/early-entry-pathway-to-veterinary-medicine/
 
