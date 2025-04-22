@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "欧美DVM申请服务介绍"
+title: "欧美澳DVM申请服务介绍"
 date: 2024-05-29
 ---
 
@@ -62,7 +62,7 @@ DVM项目在国内是一个非常小众的领域。每年入学美国DVM的中�
 
   学生在申请中有任何问题都可以使用咨询服务。
 
-服务价格请参考[TEssay留学服务常见问题](https://tessay.org/blog/2024/04/02/faq)
+服务价格请参考[TEssay留学服务和价格](https://tessay.org/blog/2024/04/02/faq)
 
 
 **成功案例**

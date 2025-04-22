@@ -21,6 +21,8 @@ COE是美国教育部授权的，对兽医学院进行认证的机构。COE在20
 
 关于美国兽医学院的COE认证详细流程和标准，大家可以参考我们之前的文章：
 
+[Vet schools是如何获得美国AVMA认证的？](https://tessay.org/blog/2024/03/11/vet-school-navle-passing-rates)
+
 ## 申请材料和要求 ##
 
 Schreiber DVM的申请材料和要求跟美国其他兽医学院类似：
