@@ -84,3 +84,94 @@ include_mathjax: true
 + https://research.collegeboard.org/reports/sat-suite/understanding-scores/sat
 
 + https://www.act.org/content/dam/act/unsecured/documents/NormsChartMCandComposite-Web2015-16.pdf
+
+```python
+# visualize the SAT scores
+fig_count = 1
+df = ADMISSIONS_DATA[['School', 'SAT_25th', 'SAT_50th', 'SAT_75th']]
+df = df.dropna()
+df = df[::-1]
+df = df[32:]
+# Calculate floating bar positions
+df['left'] = df['SAT_25th']  # Start at 25th percentile
+df['width'] = df['SAT_75th'] - df['SAT_25th']                # Width = 75th - 25th
+
+# Plot
+fig, ax = plt.subplots(figsize=(7, 6))
+bars = plt.barh(df['School'], df['width'], left=df['left'], 
+                height=0.6, color='skyblue')
+
+# Add median line and labels
+for i in range(len(df)):
+    # Median line (red)
+    median = df.iloc[i, df.columns.get_loc('SAT_50th')]
+    plt.plot([median, median], [i - 0.25, i + 0.25], color='red', lw=1, zorder=3)
+    
+    # Median label (integer)
+    plt.text(median, i, f'{int(median)}', ha='right', va='center', 
+             fontsize=8, color='black')
+
+
+# add watermark
+add_watermark(ax, -50, 1)
+
+# Customize
+plt.xlabel('SAT Scores')
+plt.ylabel('Schools')
+plt.suptitle(
+    f"Figure {fig_count}. 25th Percentile to 75th Percentile of SAT Scores of US TOP 10 Universities", y=0.0001, fontsize=10
+)
+fig_count += 1
+plt.grid(axis='x', linestyle='--', alpha=0.7)
+plt.xlim([1450, 1600])
+plt.tight_layout()
+plt.show()
+```
+
+
+    
+![png](/assets/images/2025-03-27-college-ad-scores-analytics_files/2025-03-27-college-ad-scores-analytics_11_0.png)
+    
+
+
+```python
+df_gpa = ADMISSIONS_DATA[['School', 'GPA_400', 'GPA_375', 'GPA_350', 'GPA_325', 'GPA_300', 'GPA_250']]
+df_gpa = df_gpa[:20]
+df_gpa = df_gpa.dropna()
+df_gpa = df_gpa[::-1]
+gpa_ranges = ['GPA_400', 'GPA_375', 'GPA_350', 'GPA_325', 'GPA_300', 'GPA_250']
+labels = ['4.0', '3.75-3.99', '3.50-3.74', '3.25-3.49', '3.00-3.25', '2.50-2.99']
+
+# Visualization
+fig, ax = plt.subplots(figsize=(7, 6))
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', 'yellow', 'purple']  # Blue, Orange, Green, Red
+left = np.zeros(len(df_gpa))
+
+# Iterate through GPA ranges
+for i, gpa in enumerate(gpa_ranges):
+    plt.barh(df_gpa['School'], df_gpa[gpa], left=left, 
+            color=colors[i], label=labels[i], edgecolor='white')
+    left += df_gpa[gpa]
+
+
+# add watermark
+add_watermark(ax, 1, 1)
+
+# Formatting
+plt.ylabel('Schools')  # Axis title
+plt.xlabel('Percentage of Enrolled Students (%)')
+plt.xticks(rotation=0, ha='center', fontsize=8)
+plt.suptitle(
+    f"Figure {fig_count}. GPA Distribution of Enrolled Students of US Universities", y=0.0001, fontsize=10
+)
+fig_count += 1
+plt.legend(title='GPA Ranges', bbox_to_anchor=(1.02, 1))
+plt.tight_layout()
+plt.show()
+```
+
+
+    
+![png](/assets/images/2025-03-27-college-ad-scores-analytics_files/2025-03-27-college-ad-scores-analytics_12_0.png)
+    
+
