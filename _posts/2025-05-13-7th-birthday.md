@@ -10,6 +10,8 @@ date: 2025-05-13
 
 过去一年，我们收获了很多：
 
++ mission: we want to stand on the other side with offers, and we help students who have the same goal
+
 + 联系表格
 
 从客户反馈来看，TEssay[联系表格](https://tessay.org/blog/2024/04/10/contact-form)的上线非常成功。它让服务流程更透明和便捷。无论是直接购买申请服务还是付费咨询试用，学生和家长都可以清晰地了解服务内容和价格，认真地考虑清楚自己的需求和目标，一键提交相关信息。我们的团队也能在第一时间响应，为学生量身定制其所需的申请服务。
