@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2025美国新增兽医学院-Utah State U College of Veterinary Medicine"
-date: 2025-04-01
+date: 2025-10-01
 include_mathjax: false
 ---
 

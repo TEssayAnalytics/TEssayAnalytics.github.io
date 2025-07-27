@@ -43,8 +43,13 @@ include_mathjax: false
 			</div><!-- /.container -->
 
 			<footer>
-				<p><a href="{{ site.pages_dir }}/privacy">Privacy Policy</a> & <a href="{{ site.pages_dir }}/terms">Terms of Service</a><p>
+				<p>All rights reserved © 2018 - <span id="year"></span> </p>
+				<p><a href="{{ site.pages_dir }}/privacy">Privacy Policy</a>, <a href="{{ site.pages_dir }}/terms">Terms of Service</a>,
+					& <a href="{{ site.pages_dir }}/code-of-conduct">Code of Conduct</a><p>
 
+	      <script>
+	          document.getElementById('year').textContent = new Date().getFullYear();
+	      </script>
 
 
 
