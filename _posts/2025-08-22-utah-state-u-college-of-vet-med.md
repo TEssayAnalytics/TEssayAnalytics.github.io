@@ -5,9 +5,9 @@ date: 2025-08-22
 include_mathjax: false
 ---
 
-四月份我们为大家介绍了2025年美国新增加的一所兽医学院 - [Schreiber School of Veterinary Medicine of Rowan University](https://tessay.org/blog/2025/04/01/dvm-schreiber-school-application)，而与此同时另一所大学也刚刚获得了AVMA COE的认证，成为了美国第35所兽医学院 - [Utah State University College of Veterinary Medicine](https://vetmed.usu.edu/)。因为时间仓促，这所兽医学院的招生信息到7月份才完整发布，当时宣布是不参与2025年的申请了，2026年才开始招生，但最近又宣布了加入2025申请季（2025年9月15日截止），所以我们赶紧来跟大家分享这个消息。
+四月份我们为大家介绍了2025年美国新增加的一所兽医学院 - [Schreiber School of Veterinary Medicine of Rowan University](https://tessay.org/blog/2025/04/01/dvm-schreiber-school-application)，而与此同时另一所大学也刚刚获得了AVMA COE的认证，成为了美国第35所兽医学院 - [Utah State University College of Veterinary Medicine](https://vetmed.usu.edu/)。
 
-如果你今年正在申请DVM，在9月15日之前都可以把Utah State U加入你的申请。
+这所兽医学院的招生信息到7月份才完整发布，当时宣布是不参与2025年的申请了，2026年才开始招生，但最近又宣布了加入2025申请季（2025年9月15日截止），所以我们赶紧来跟大家分享这个消息。如果你今年正在申请DVM，在9月15日之前都可以把Utah State U加入你的申请。
 
 废话不多说，下面我们就来简要了解一下这所兽医学院。
 
@@ -22,10 +22,8 @@ Utah State U 位于犹他州的洛根市（Logan）, 距离盐湖城开车两小
 Utah State U DVM的申请材料和要求跟美国其他兽医学院类似：
 
 + GPA：
-    
-    + GPA:
-        + 综合GPA最低2.9
-        + 先修课理科GPA最低3.1
+  + 综合GPA最低2.9
+  + 先修课理科GPA最低3.1
     
 + 先修课：
   + 先修课分数最低C-
@@ -47,7 +45,7 @@ Utah State U DVM的申请材料和要求跟美国其他兽医学院类似：
 
 + 国际学生：
     + WES成绩单认证：如果学生有课程在美国和加拿大（英语教学）以外完成，须提交WES认证。
-    + TOEFL：截止日期2025年9月15日）
+    + TOEFL：截止日期2025年9月15日
 
 + 实习经历：没有最低小时数要求，但建议学生尽量提升兽医、动物、研究等经历的深度和广度。
 
