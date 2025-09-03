@@ -127,6 +127,46 @@ Cornell网站上列出的申请材料要求主要是关于本科成绩单的：
     + 以上400个小时中至少75小时是在被Accelerated BS/DVM 临时录取后完成的
 + 三封推荐信：主要关于400小时实习经历的，其中至少一封来自兽医。
 
+## Tufts University - Cummings School of Veterinary Medicine ##
+
+Tufts的[Bs/DVM早录取项目](https://vet.tufts.edu/dvm-admissions/bachelorsdvm-early-acceptance-program)跟前面学校的不同，并非7年制，而是对以下四所学校本科生特别设立的提前申请流程：
+
++ Tufts University
++ the University of Massachusetts at Amherst
++ Worcester Polytechnic Institute
++ the University of Vermont
+
+这四所学校的本科生都可以在大二时提交申请，被录取的学生继续按要求完成本科学位，然后可以直接开始DVM项目，省去了普通DVM申请的繁琐步骤。
+
+**申请流程**
+
++ 第一步，暂时录取：
+
+  学生在大二时提交申请，每年截止日期在3月1日，面试在3-4月，录取结果在4月底公布。
+  
++ 第二步，最终录取：
+
+  被暂时录取的学生需要继续在本科期间满足学校的GPA、先修课等相关的要求，并完成本科学位，才可以入读兽医学院。
+ 
+**申请要求和材料**
+
++ 第一步，暂时录取：
+  
+    + SAT/ACT
+    + 本科成绩单
+    + 先修课：建议至少修完两个科学课程序列，比如基础化学1和2,或基础生物1和2
+    + AP课程：如果出现在学生本科成绩单上，可接受
+
+
++ 第二步，最终录取：
+
+  被暂时录取的学生需要继续在本科期间满足以下要求：
+
+  + 保持每学年综合GPA最低3.4
+  + 完成DVM先修课
+  + 完成本科学位
+  + 在大四学年4月15日前确认DVM项目入读意愿
+
 ## Rowan University - Schreiber School of Veterinary Medicine ##
 
 这个[7年制项目](https://svm.rowan.edu/admissions-menu/3+4-program.html)是Schreiber兽医学院和理学院（College of Science & Mathematics）合作设立的。兽医学院会从理学院的本科生中招收4位学生。学生用前三年在生物专业完成先修课，第四年开始DVM学习，并会在这学年结束时获得学士学位，最终七年学习结束时获得DVM学位。需要大家注意的是，目前这个项目只招收New Jersey residents。
