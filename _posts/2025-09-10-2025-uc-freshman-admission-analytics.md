@@ -14,7 +14,7 @@ date: 2025-09-10
 
 ## 新生录取率 ##
 
-图1（Figure 1）中我们可以看到加州大学各分校2029级新生的录取率（录取学生数/申请学生数）。其中录取率最高的是Merced（98%）；综合排名在TOP50内的几所分校中，Davis的录取率最高（45%），其次是Santa Barbara (38%), Irvine和San Diego的录取率非常接近，在28%左右；TOP20的两所分校Berkeley和Los Angeles录取率最低，分别为11%和9%。
+图1（Figure 1）中我们可以看到加州大学各分校2029级新生的录取率（录取学生数/申请学生数）。其中录取率最高的是Merced（98%）；综合排名在TOP50内的几所分校中，戴维斯（33）的录取率最高为45%，其次是圣巴巴拉(39) 的38%, Irvine (33)和圣地亚哥 (29) 的录取率非常接近，在28%左右；综合排名前20的两所分校Berkeley (17)和洛杉矶(15)录取率最低，分别为11%和9%。而且这两所学校录取人数也最低，在一万三千到一万五千之间，而其他分校录取人数多在3万5到5万之间。
 
 
     
@@ -32,13 +32,15 @@ date: 2025-09-10
 
 ## 国际新生录取率 ##
 
-图3（Figure 3）中，我们对比了各分校2029级国际新生的录取率。Riverside的国际新生录取率最高（84%），Berkeley和Los Angeles的国际新生录取率最低（均为6%），而且这两所学校录取的国际新生数量也是最低的，都是1500名左右。
+图3（Figure 3）中，我们对比了各分校2029级国际新生的录取率。Riverside的国际新生录取率最高（84%），Berkeley和Los Angeles的国际新生录取率最低（均为6%），而且这两所学校录取的国际新生数量也是最低的，都是1500名左右。其他综合排名在TOP50内的几所分校中，Davis（33）的录取率最高为57%，录取国际生数量也最高，有11944名；其次是Santa Barbara(39) 的48%.
 
-对比2025, 2027和2029级三届国际新生录取率，Merced和Riverside呈逐渐上升趋势，而其他分校都经历了录取率下降而后回升的变化，尤其Irvine, Santa Barbara和Santa Cruz在29级的郭级新生录取率增长到了比covid-19更高的水平。
+对比整体新生和国际新生录取率（图4），Davis, Santa Barbara, Irvine, 和San Diego四所分校的后者都高于前者, 大家在选校时可以留意一下这些在录取率上对国际学生更友好的学校。
 
-进入美国TOP50的分校里的Davis国际新生录取率最高（57%），而且通过图5（Figure 4）中过去多年的国际新生录取率来看，Davis在国际学生录取上的优势是稳定存在的。同时，Davis录取的国际学生数量也是所有分校里最高的（11944名），国际新生占新生总数的比重（26%）也与Irvine并列第一。
+对比2025, 2027和2029级三届国际新生录取率（图5, Figure 5），Merced和Riverside呈逐渐上升趋势，而其他分校都经历了录取率下降而后回升的变化，尤其Irvine, Santa Barbara和Santa Cruz在29级的国际新生录取率增长到了比covid-19更高的水平。
 
+图6中，我们对比了各分校录取的所有本科新生中，国际新生所占的比重。Davis和Irvine的最高，都是26%；其次是Santa Barbara和San Diego，20%左右；其他分校的比重都在10%左右。
 
+对比2025, 2027和2029级三届录取新生中国际学生的比重（图7, Figure 7），除了Riverside和Merced, 其他分校都经历了先下降后回升的变化。Irvine, Santa Barbara和San Diego 2029级的国际学生比重还增长到了比covid-19前更高的水平。
 
 
     
@@ -46,9 +48,11 @@ date: 2025-09-10
     
 
 
-图5（Figure 5）中，我们可以看到Santa Barbara, San Diego, Irvine, 和Davis的国际学生录取率高于其整体新生的录取率。
 
-大家在选校时可以留意一下这些在录取率上对国际学生更友好的学校。
+    
+![png](/assets/images/2025-09-10-2025-uc-freshman-admission-analytics_files/2025-09-10-2025-uc-freshman-admission-analytics_8_0.png)
+    
+
 
 
     
@@ -62,23 +66,9 @@ date: 2025-09-10
     
 
 
-图4中，我们可以看到各所分校录取的国际新生在新生总数的占比。除了Davis和Irvine，Santa Barbara和San Diego录取的国际新生比重也较高（分别是21%和19%），明显高于其他分校。Merced录取的国际新生比重最低（8%）。
-
-图5（Figure 5）是2025, 2027和2029级三届国际新生占录取学生总数的比例对比。除了Merced和Riverside，其他校区都经历了先下降后上升的变化，尤其Irvine, San Diego, 和Santa Barbara，在2029级录取中国际新生比例增长到比covid-19前更高的水平。
-
-对比图1和图3,我们可以看到Riverside, Davis, 和Irvine的国际学生录取率高于其总体新生的录取率。
-
-大家在选校时可以留意一下这些在录取率上对国际学生更友好的学校。
-
 
     
-![png](/assets/images/2025-09-10-2025-uc-freshman-admission-analytics_files/2025-09-10-2025-uc-freshman-admission-analytics_12_0.png)
-    
-
-
-
-    
-![png](/assets/images/2025-09-10-2025-uc-freshman-admission-analytics_files/2025-09-10-2025-uc-freshman-admission-analytics_13_0.png)
+![png](/assets/images/2025-09-10-2025-uc-freshman-admission-analytics_files/2025-09-10-2025-uc-freshman-admission-analytics_11_0.png)
     
 
 
