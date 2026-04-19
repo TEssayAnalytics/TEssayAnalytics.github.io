@@ -4,6 +4,8 @@ title: "2025美国新增兽医学院-Clemson University"
 date: 2025-10-10
 include_mathjax: false
 ---
+*更新提醒：科莱姆森大学DVM项目目前不招收国际学生，请同学们根据自身情况选择申请。*
+
 本月9号，美国科莱姆森大学（[Clemson University](https://www.clemson.edu/veterinary-medicine/?utm_source=EMP&utm_medium=email&utm_content=91216237&utm_campaign=40465-130913&utm_term=24-570721)）的兽医学院收到了美国教育部（AVMA COE）的认证，可以开始正式招生了。这是继[Schreiber School of Veterinary Medicine of Rowan University](https://tessay.org/blog/2025/04/01/dvm-schreiber-school-application)和[Utah State University College of Veterinary Medicine](https://vetmed.usu.edu/)之后，今年美国新增的第三所兽医学院。
 
 克莱姆森大学兽医学院全称为 the Harvey S. Peeler Jr. College of Veterinary Medicine。该校获得认证后，随即在官网开放2030届DVM项目（2026年秋季入学）的申请通道。需要注意的是，该校申请不通过VMCAS系统（已截止）进行，而是通过本校网站提交。虽然申请系统不同，但所需材料与其他兽医学院基本一致。若你已参与本年度DVM申请并对该校感兴趣，可直接在其官网上提交申请。接下来，我们将详细介绍该校的申请要求与流程。
