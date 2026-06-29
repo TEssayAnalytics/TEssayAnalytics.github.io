@@ -9,7 +9,7 @@ include_mathjax: false
 
 ## 什么是 AVMA COE 认证 ##
 
-美国兽医协会教育委员会（[American Veterinary Medical Association](https://www.avma.org/about) Council of Education (AVMA COE) ）是美国教育部和高等教育认证委员会共同认可的兽医学教育项目认证机构。截至2026年6月，AVMA COE在全球已认证了62所兽医学院，其中包括美国的40所，加拿大5所，澳大利亚4所，英国4所，以及其他国家如爱尔兰、苏格兰、法国、墨西哥、韩国等1-2所。
+美国兽医协会教育委员会（[American Veterinary Medical Association](https://www.avma.org/about) Council of Education (AVMA COE) ）是美国教育部和高等教育认证委员会共同认可的兽医学教育项目认证机构。截至2026年6月，AVMA COE在全球已认证了62所兽医学院，其中包括美国的39所，加拿大5所，澳大利亚4所，英国4所，以及其他国家如爱尔兰、苏格兰、法国、墨西哥、韩国等1-2所。
 
 认证的核心目的是向公众和执照颁发机构保证：认证项目的毕业生达到既定的能力水平，所接受的教育能够帮助他们胜任兽医行业的入门级职位。认证过程极为严格。获得认证的学校大约每七年接受一次全面评审，期间需提交详尽的自评报告，并由 COE 评审团队进行为期数日的实地考察，审查 DVM 项目的方方面面。学校还必须持续符合认证标准，并提交年度报告以证明其合规性。
 
