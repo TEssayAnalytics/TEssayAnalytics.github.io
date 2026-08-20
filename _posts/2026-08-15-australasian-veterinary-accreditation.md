@@ -59,9 +59,9 @@ AVBC的起源可追溯到1985年，当时澳大利亚各州及领地的兽医委
 + 墨尔本大学：AVBC（澳），RCVS（英国）和AVMA COE（北美）
 + 悉尼大学：AVBC（澳），RCVS（英国）和AVMA COE（北美）
 + 莫道克大学: AVBC（澳），RCVS（英国）和AVMA COE（北美）
-+ 昆士兰大学: AVBC（澳），RCVS（英国）和AVMA COE（北美）, AVMA COE（北美）, MVC (马来西亚)， SAVC (南美)
++ 昆士兰大学: AVBC（澳），RCVS（英国）和AVMA COE（北美）, MVC (马来西亚)， SAVC (南美)
 + 梅西大学: AVBC（澳），RCVS（英国）和AVMA COE（北美）
-+ 瑞典农业科学大学: AVBC, EVEAE (欧盟)
++ 瑞典农业科学大学: AVBC（澳）, EVEAE (欧盟)
 
 
 ## 互认认证 ##
